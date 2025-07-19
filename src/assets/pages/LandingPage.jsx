@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
+import About from '../components/About'
 
 const LandingPage = () => {
   return (
@@ -75,6 +76,8 @@ const LandingPage = () => {
       <Projects></Projects>
 
       <Skills></Skills>
+
+      <About></About>
 
     </div>
   )
