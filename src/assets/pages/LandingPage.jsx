@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import About from '../components/About'
+import LinkedinConnect from '../components/LinkedinConnect'
 
 const LandingPage = () => {
   return (
@@ -78,6 +79,8 @@ const LandingPage = () => {
       <Skills></Skills>
 
       <About></About>
+
+      <LinkedinConnect></LinkedinConnect>
 
     </div>
   )
