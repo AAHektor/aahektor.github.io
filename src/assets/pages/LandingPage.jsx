@@ -6,6 +6,7 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import About from '../components/About'
 import LinkedinConnect from '../components/LinkedinConnect'
+import Footer from '../components/Footer'
 
 const LandingPage = () => {
   return (
@@ -81,6 +82,8 @@ const LandingPage = () => {
       <About></About>
 
       <LinkedinConnect></LinkedinConnect>
+
+      <Footer></Footer>
 
     </div>
   )

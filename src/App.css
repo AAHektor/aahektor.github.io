@@ -367,6 +367,34 @@ body {
 
 /* FOOTER SECTION */
 
+.footer-section {
+  border: 2px solid var(--primary-blue-color);
+  border-radius: 16px;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  .copyright-tag {
+    display: flex;
+    justify-content: center;
+    color: #ffffff6b;
+  }
+}
+
+.footer-information-item {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+
+  font-size: 13px;
+  color: #ffff;
+  
+}
+
 
 
 /* FOOTER SECTION */
