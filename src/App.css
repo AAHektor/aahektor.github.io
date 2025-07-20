@@ -10,7 +10,17 @@ body {
   font-family: 'Inter', sans-serif;
 
   height: 100%;
-  background: linear-gradient(135deg, #222831, #17181B);
+  /* background: linear-gradient(135deg, #222831, #17181B); */
+
+  background: linear-gradient(-45deg, #1e1e1e, #0e0c13, #022830, #272727);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 :root {
@@ -65,6 +75,8 @@ body {
   border-radius: 16px;
   background-color: orange;
   padding: .5rem .5rem .5rem .5rem;
+
+  /* box-shadow: 10px 10px 40px rgba(3, 202, 228, 0.164); */
 
   ul {
     padding-left: 1rem;
@@ -140,15 +152,17 @@ body {
 .hero-content-right {
 
   margin-right: 4rem;
+
   .profile-wrapper {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  overflow: hidden; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 6px solid var(--primary-blue-color);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid var(--primary-blue-color);
+    box-shadow: 20px 10px 40px rgba(3, 202, 228, 0.329);
   }
   .profile-img {
     width: 100%; /* Zoom-effekt */
