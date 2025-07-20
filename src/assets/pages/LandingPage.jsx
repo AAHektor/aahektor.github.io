@@ -7,6 +7,7 @@ import Skills from '../components/Skills'
 import About from '../components/About'
 import LinkedinConnect from '../components/LinkedinConnect'
 import Footer from '../components/Footer'
+import Experience from '../components/Experience'
 
 const LandingPage = () => {
   return (
@@ -78,6 +79,8 @@ const LandingPage = () => {
       <Projects></Projects>
 
       <Skills></Skills>
+
+      <Experience></Experience>
 
       <About></About>
 

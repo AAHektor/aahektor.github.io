@@ -316,6 +316,97 @@ body {
 
 /* SKILLS SECTION */
 
+/* EXPERIENCE SECTION */
+
+.experience-section {
+  margin-top: 5rem;
+
+  h2 {
+    color: #ffff;
+  }
+}
+
+.experience-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.projects-header-container {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  svg {
+    color: transparent;
+  }
+}
+
+.experience-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  margin-top: 2.5rem;
+}
+
+.experience-item {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+  h3 {
+    color: var(--primary-blue-color);
+    font-size: 23px;
+    font-weight: 500;
+  }
+  h4 {
+    color: #ffff;
+    font-weight: 300;
+  }
+  span {
+    color: #ffffff96;
+    font-size: 13px;
+  }
+}
+
+.experience-timeline {
+  position: relative;
+  height: 300px;
+  width: 40px;
+}
+
+.experience-timeline-dot {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #03C9E4;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.experience-timeline-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  background-color: #666;
+}
+
+.dot1 {
+  top: 40px;
+}
+
+.dot2 {
+  bottom: 120px;
+}
+
+/* EXPERIENCE SECTION */
+
 /* ABOUT SECTION */
 
 .about-section {
