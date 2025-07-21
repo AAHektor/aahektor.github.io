@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -14,7 +13,7 @@ const Hero = () => {
           <div className='socials-links'>
             <a target="_blank" href="https://github.com/AAHektor"><img src="/images/hero/github.svg" alt="" /></a>
             <a target="_blank" href="https://www.linkedin.com/in/aron-hektor-b5676327a/"><img src="/images/hero/linkedin.svg" alt="" /></a>
-            <NavLink to=""><img src="/images/hero/envelope.svg" alt="" /></NavLink>
+            <a to=""><img src="/images/hero/envelope.svg" alt="" /></a>
           </div>
           {/* <button className='btn btn-contact'> CONTACT 
             <svg

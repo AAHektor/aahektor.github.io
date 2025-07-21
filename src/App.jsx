@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import LandingPage from './assets/pages/LandingPage'
 
@@ -6,9 +6,11 @@ function App() {
 
   return (
     <>
-      <Routes>
-        <Route path='/' element={<LandingPage />} />
-      </Routes>
+      <HashRouter>
+        <Routes>
+          <Route path='/' element={<LandingPage />} />  
+        </Routes>
+      </HashRouter>
     </>
   )
 }
