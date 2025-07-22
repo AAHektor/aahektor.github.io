@@ -11,9 +11,9 @@ const Hero = () => {
             <span>Aspiring fullstack developer from Sweden, turning ideas into user-friendly web experiences.</span>
           </div>
           <div className='socials-links'>
-            <a target="_blank" href="https://github.com/AAHektor"><img src="/images/hero/github.svg" alt="" /></a>
-            <a target="_blank" href="https://www.linkedin.com/in/aron-hektor-b5676327a/"><img src="/images/hero/linkedin.svg" alt="" /></a>
-            <a to=""><img src="/images/hero/envelope.svg" alt="" /></a>
+            <a target="_blank" href="https://github.com/AAHektor"><img src="./images/hero/github.svg" alt="" /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/aron-hektor-b5676327a/"><img src="./images/hero/linkedin.svg" alt="" /></a>
+            <a to=""><img src="./images/hero/envelope.svg" alt="" /></a>
           </div>
           {/* <button className='btn btn-contact'> CONTACT 
             <svg
@@ -35,7 +35,7 @@ const Hero = () => {
 
         <div className='hero-content-right'>
           <div className='profile-wrapper'>
-            <img className='profile-img' src="/images/hero/jag5.jpg" alt="" />
+            <img className='profile-img' src="./images/hero/jag5.jpg" alt="" />
           </div>
         </div>
 
