@@ -24,7 +24,7 @@ const Projects = () => {
       <div className='card-container-projects'>
         <div className='card card-project'>
           <div className='project-img-container'>
-            <img src="./images/projects/img-placeholder.png" alt="" />
+            <img src="/mywebsite/images/projects/img-placeholder.png" alt="" />
           </div>
           <h4>Lorem ipsum</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio nostrum consequatur delectus illum et unde, voluptates modi dignissimos dolores.</p>
@@ -32,7 +32,7 @@ const Projects = () => {
         
         <div className='card card-project'>
           <div className='project-img-container'>
-            <img src="./images/projects/img-placeholder.png" alt="" />
+            <img src="/mywebsite/images/projects/img-placeholder.png" alt="" />
           </div>
           <h4>Lorem ipsum</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio nostrum consequatur delectus illum et unde, voluptates modi dignissimos dolores.</p>
@@ -40,7 +40,7 @@ const Projects = () => {
 
         <div className='card card-project'>
           <div className='project-img-container'>
-            <img src="./images/projects/img-placeholder.png" alt="" />
+            <img src="/mywebsite/images/projects/img-placeholder.png" alt="" />
           </div>
           <h4>Lorem ipsum</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio nostrum consequatur delectus illum et unde, voluptates modi dignissimos dolores.</p>
