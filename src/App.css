@@ -480,6 +480,14 @@ body {
     font-size: 30px;
     font-weight: 300;
   }
+
+  a {
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+  a:hover {
+    transform: scale(1.1);
+  }
 }
 
 /* LINKEDIN SECTION */
