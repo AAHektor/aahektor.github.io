@@ -265,7 +265,7 @@ body {
   background-color: var(--card-background-color);
   color: #ffff;
   border: 2px solid var(--primary-blue-color);
-  height: 24rem;
+  min-height: 20rem;
 
   h4 {
     margin-bottom: .5rem;
