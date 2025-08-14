@@ -26,24 +26,30 @@ const Projects = () => {
           <div className='project-img-container'>
             <img src="/mywebsite/images/projects/img-placeholder.png" alt="" />
           </div>
-          <h4>Lorem ipsum</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio nostrum consequatur delectus illum et unde, voluptates modi dignissimos dolores.</p>
+            <div className='project-info'>
+              <h4>Lorem ipsum</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio nostrum consequatur delectus.</p>
+          </div>
         </div>
         
         <div className='card card-project'>
           <div className='project-img-container'>
             <img src="/mywebsite/images/projects/img-placeholder.png" alt="" />
           </div>
-          <h4>Lorem ipsum</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio nostrum consequatur delectus illum et unde, voluptates modi dignissimos dolores.</p>
+          <div className='project-info'>
+            <h4>Lorem ipsum</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio nostrum consequatur delectus.</p>
+          </div>
         </div>
 
         <div className='card card-project'>
           <div className='project-img-container'>
             <img src="/mywebsite/images/projects/img-placeholder.png" alt="" />
           </div>
-          <h4>Lorem ipsum</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio nostrum consequatur delectus illum et unde, voluptates modi dignissimos dolores.</p>
+            <div className='project-info'>
+              <h4>Lorem ipsum</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi optio nostrum consequatur delectus.</p>
+          </div>
         </div>
       </div>
     </div>
