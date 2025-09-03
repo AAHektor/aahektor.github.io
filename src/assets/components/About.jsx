@@ -1,8 +1,15 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer'
 
 const About = () => {
+
+  const {ref, inView} = useInView ({
+    threshold: 0.2,
+    triggerOnce: true,
+  });
+
   return (
-    <div className='about-section'>
+    <div ref={ref} className={`about-section fade-right ${inView ? 'is-visible' : ''}`}>
       <div className='about-header-container'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
