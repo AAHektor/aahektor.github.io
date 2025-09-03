@@ -11,7 +11,7 @@ import Experience from '../components/Experience'
 
 const LandingPage = () => {
   return (
-    <div className='page-wrapper'>
+    <div>
 
       <Header></Header>
 

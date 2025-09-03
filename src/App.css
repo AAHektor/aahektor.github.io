@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 
 * { box-sizing: border-box; padding: 0; margin: 0; }
 
@@ -74,6 +76,11 @@ body {
 .card h3 { padding-bottom: .5rem; }
 
 /* HEADER */
+
+#header-section {
+    background: #1a1a1a;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -81,7 +88,15 @@ body {
   padding: .7rem 0;
   border-radius: 8px;
 }
-.header h1 { font-size: 16px; color: orange; }
+.header h1 { 
+  font-size: 17px; 
+  color: #fff;
+  font-family: 'Montserrat', sans-serif; 
+  letter-spacing: 2px; /* gör att det känns mer “logotypigt” */
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+ }
 
 /* Visa/dölj logga (klass .logotype) i mobil */
 @media (max-width: 768px) { .logotype { display: none; } }
@@ -109,6 +124,12 @@ body {
 }
 
 /* HERO */
+#hero-section {
+  /* background: #1a1a1a; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .socials-links { margin-top: 1rem; display: flex; gap: .1rem; }
 .socials-links img { width: 70%; }
 .socials-links a { transition: transform .2s ease, color .2s ease; }
@@ -116,7 +137,6 @@ body {
 
 .hero-content {
   display: flex;
-  margin-top: 5rem;
   justify-content: space-between;
   gap: 3rem;
 }
@@ -176,7 +196,8 @@ body {
 .card-container-column { display: flex; flex-direction: column; gap: 1.5rem; flex: 1; }
 
 /* PROJECTS */
-.projects-section { margin-top: 5rem; }
+.projects-section { padding-top: 3rem; }
+.projects-section { padding-bottom: 3rem; }
 .projects-section h2 { color: #fff; }
 
 .projects-header-container {
@@ -291,7 +312,16 @@ body {
 }
 
 /* SKILLS */
-.skills-section { margin-top: 5rem; }
+
+#skills-section {
+
+}
+
+.skills-section { 
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+ }
 .skills-section h2 { color: #fff; }
 
 .skills-header-container {
@@ -319,7 +349,13 @@ body {
 .skill-items { flex: 1; display: flex; flex-direction: column; color: #ffffff9f; font-weight: 300; justify-content: space-between; }
 
 /* EXPERIENCE */
-.experience-section { margin-top: 5rem; }
+
+#experience-section {
+    background: #1a1a1a;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .experience-section h2 { color: #fff; }
 
 .experience-content { display: flex; gap: 2rem; }
