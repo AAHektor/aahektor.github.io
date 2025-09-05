@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import {Link} from 'react-scroll'
 
 const Header = () => {
   return (
@@ -26,8 +27,8 @@ const Header = () => {
                 <path d="M15 4h5v5" />
               </svg>
             </a>
-            <NavLink>Projects</NavLink>
-            <NavLink>Socials</NavLink>
+            <Link to="project-section" spy={true} smooth={true} offset={10} duration={100}>Projects</Link>
+            <Link to="linkedin-section" spy={true} smooth={true} offset={-100} duration={100}>Socials</Link>
             <NavLink>Resources</NavLink>
           </nav>
         </div>
