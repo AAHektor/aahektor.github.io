@@ -1,11 +1,12 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer'
 
-const Experience = () => {
+const Experience = ({animReady}) => {
 
   const {ref, inView} = useInView ({
     threshold: 0.2,
     triggerOnce: true,
+    skip: !animReady,
   })
 
   return (

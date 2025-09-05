@@ -9,13 +9,13 @@ import LinkedinConnect from '../components/LinkedinConnect'
 import Footer from '../components/Footer'
 import Experience from '../components/Experience'
 
-const LandingPage = () => {
+const LandingPage = ({animReady}) => {
   return (
     <div>
 
       <Header></Header>
 
-      <Hero></Hero>
+      <Hero animReady={animReady}></Hero>
 
       {/* <div className='card-container-hero'>
         <div className='card card-feature'>
@@ -76,17 +76,17 @@ const LandingPage = () => {
 
       </div> */}
 
-      <Projects></Projects>
+      <Projects animReady={animReady}></Projects>
 
-      <Skills></Skills>
+      <Skills animReady={animReady}></Skills>
 
-      <Experience></Experience>
+      <Experience animReady={animReady}></Experience>
 
-      <About></About>
+      <About animReady={animReady}></About>
 
-      <LinkedinConnect></LinkedinConnect>
+      <LinkedinConnect animReady={animReady}></LinkedinConnect>
 
-      <Footer></Footer>
+      <Footer animReady={animReady}></Footer>
 
     </div>
   )

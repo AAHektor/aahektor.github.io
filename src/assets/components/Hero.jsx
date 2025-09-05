@@ -1,17 +1,43 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer'
+import { ReactTyped, Typed} from 'react-typed';
 
-const Hero = () => {
+const Hero = ({animReady}) => {
+
+  const { ref: leftRef, inView: leftInView } = useInView({
+    threshold: 0.0,
+    triggerOnce: true,
+    skip: !animReady
+  });
+
+   const { ref: rightRef, inView: rightInView } = useInView({
+    threshold: 0.0,
+    triggerOnce: true,
+    skip: !animReady
+  });
+
+
   return (
     <section id='hero-section'>
       <div className='page-wrapper'>
 
         <div className='hero-content'>
 
-            <div className='hero-content-left'>
+            <div ref={leftRef} className={`hero-content-left fade-left ${leftInView ? 'is-visible' : ''}`}>
               <div className='hero-content-header'>
-                <h1>Hey! I'm Aron Hektor.</h1>
-                <h2>Fullstack Developer</h2>
-                <span>Aspiring fullstack developer from Sweden, turning ideas into user-friendly web experiences.</span>
+                <h1>Hey! <span className='gradient-text hero-h1-span'> 
+                  <ReactTyped
+                    strings={["I'm Aron Hektor."]}
+                    typeSpeed={60}
+                    backSpeed={40}
+                    backDelay={2000}
+                    showCursor={true}
+                    cursorChar="|"
+                    loop={true}
+                  />
+                  </span></h1>
+                <h2 className='gradient-text'>Web Developer</h2>
+                <span>Aspiring fullstack web developer from Sweden, turning ideas into user-friendly web experiences.</span>
               </div>
               <div className='socials-links'>
                 <a target="_blank" href="https://github.com/AAHektor"><img src="/mywebsite/images/hero/github.svg" alt="" /></a>
@@ -36,7 +62,7 @@ const Hero = () => {
               </button> */}
             </div>
 
-            <div className='hero-content-right'>
+            <div ref={rightRef} className={`hero-content-right fade-right ${rightInView ? 'is-visible' : ''}`}>
               <div className='profile-wrapper'>
                 <img className='profile-img' src="/mywebsite/images/hero/profilbild.jpg" alt="" />
               </div>

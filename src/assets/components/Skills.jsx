@@ -1,11 +1,12 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer'
 
-const Skills = () => {
+const Skills = ({animReady}) => {
 
   const {ref, inView} = useInView({
     threshold: 0.2,
-    triggerOnce: true
+    triggerOnce: true,
+    skip: !animReady,
   });
 
   return (
@@ -30,7 +31,7 @@ const Skills = () => {
             <h2>Skills</h2>
           </div>
 
-          <div className='skills-container'>
+          <div ref={ref} className={`skills-container ${inView ? 'is-visible float' : ''}`}>
             <div className='skill-category'>
               <h4>Frontend</h4>
               <div className='skill-items'>

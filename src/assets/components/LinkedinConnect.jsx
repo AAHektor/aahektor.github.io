@@ -1,8 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-const LinkedinConnect = () => {
-  const { ref: appearRef, inView: inViewAppear } = useInView({ threshold: 0.2, triggerOnce: true });
+const LinkedinConnect = ({animReady}) => {
+  const { ref: appearRef, inView: inViewAppear } = useInView({
+     threshold: 0.2, 
+     triggerOnce: true,
+      skip: !animReady, 
+    });
+    
   const [show, setShow] = useState(false);
   useEffect(() => { if (inViewAppear) setShow(true); }, [inViewAppear]);
 

@@ -1,11 +1,12 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer'
 
-const Projects = () => {
+const Projects = ({animReady}) => {
 
   const {ref, inView} = useInView({
     threshold: 0.2,
-    triggerOnce: true
+    triggerOnce: true,
+    skip: !animReady,
   });
 
   return (
