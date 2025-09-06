@@ -37,7 +37,7 @@ const Hero = ({animReady}) => {
                   />
                   </span></h1>
                 <h2 className='gradient-text'>Web Developer</h2>
-                <span>Aspiring fullstack web developer from Sweden, turning ideas into user-friendly web experiences.</span>
+                <span className='hero-under-text'>Aspiring fullstack web developer from Sweden, turning ideas into user-friendly web experiences.</span>
               </div>
               <div className='socials-links'>
                 <a target="_blank" href="https://github.com/AAHektor"><img src="/mywebsite/images/hero/github.svg" alt="" /></a>
