@@ -10,7 +10,7 @@ const Header = () => {
           <h1>AronHektor</h1>
           {/* <img className='logotype' src="/mywebsite/images/header/Logo.svg" alt="" /> */}
           <nav className='navlinks'>
-            <a href="/mywebsite/CV.pdf" target="_blank" rel="noopener noreferrer">Resume 
+            <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">Resume 
               <svg className='external-link'
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
