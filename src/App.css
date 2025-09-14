@@ -249,7 +249,16 @@ body {
 }
 
 @media (max-width: 768px) {
-  
+    .hero-h1-span {
+    font-size: 30px;
+  }
+    .hero-content-header h1 {
+    font-size: 40px;
+  }
+      .hero-content-header h2 { 
+    font-size: 30px;
+    word-spacing: 3px;
+  }
 }
 
 
