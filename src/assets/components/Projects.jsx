@@ -35,7 +35,7 @@ const Projects = ({animReady}) => {
           <div className='card-container-projects'>
             <div className='card card-project'>
               <div className='project-img-container'>
-                <img src="/mywebsite/images/projects/img-placeholder.png" alt="" />
+                <img src="/images/projects/img-placeholder.png" alt="" />
               </div>
                 <div className='project-info'>
                   <h4>Coming soon</h4>
@@ -45,7 +45,7 @@ const Projects = ({animReady}) => {
             
             <div className='card card-project'>
               <div className='project-img-container'>
-                <img src="/mywebsite/images/projects/img-placeholder.png" alt="" />
+                <img src="/images/projects/img-placeholder.png" alt="" />
               </div>
               <div className='project-info'>
                 <h4>Coming soon</h4>
@@ -55,7 +55,7 @@ const Projects = ({animReady}) => {
 
             <div className='card card-project'>
               <div className='project-img-container'>
-                <img src="/mywebsite/images/projects/img-placeholder.png" alt="" />
+                <img src="/images/projects/img-placeholder.png" alt="" />
               </div>
                 <div className='project-info'>
                   <h4>Coming soon</h4>

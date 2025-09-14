@@ -40,9 +40,9 @@ const Hero = ({animReady}) => {
                 <span className='hero-under-text'>Aspiring fullstack web developer from Sweden, turning ideas into user-friendly web experiences.</span>
               </div>
               <div className='socials-links'>
-                <a target="_blank" href="https://github.com/AAHektor"><img src="/mywebsite/images/hero/github.svg" alt="" /></a>
-                <a target="_blank" href="https://www.linkedin.com/in/aron-hektor-b5676327a/"><img src="/mywebsite/images/hero/linkedin.svg" alt="" /></a>
-                <a to=""><img src="/mywebsite/images/hero/envelope.svg" alt="" /></a>
+                <a target="_blank" href="https://github.com/AAHektor"><img src="/images/hero/github.svg" alt="" /></a>
+                <a target="_blank" href="https://www.linkedin.com/in/aron-hektor-b5676327a/"><img src="/images/hero/linkedin.svg" alt="" /></a>
+                <a to=""><img src="/images/hero/envelope.svg" alt="" /></a>
               </div>
               {/* <button className='btn btn-contact'> CONTACT 
                 <svg
@@ -64,7 +64,7 @@ const Hero = ({animReady}) => {
 
             <div ref={rightRef} className={`hero-content-right fade-right ${rightInView ? 'is-visible' : ''}`}>
               <div className='profile-wrapper'>
-                <img className='profile-img' src="/mywebsite/images/hero/profilbild.jpg" alt="" />
+                <img className='profile-img' src="/images/hero/profilbild.jpg" alt="" />
               </div>
             </div>
 
